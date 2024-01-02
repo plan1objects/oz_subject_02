@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: solid 3px #fff;
+}
+#pic_diary{
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px 0;
+    background-color: #f39c1a;
+}
+#pic_diary header h1{
+    color: #fff;
+    line-height: 70px;
+    text-align: center;
+}
+.dateContent{
+    padding: 10px 0;
+}
+.dateContent p,
+.dateContent form{
+    text-align: right;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.dateContent form strong{
+    line-height: 40px;
+}
+.dateContent form span{
+    font-size: 20px;
+    line-height: 40px;
+}
+#save_data{
+    display: inline-block;
+    padding: 3px 6px;
+    border: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #747474;
+    cursor: pointer;
+}
+.imgContent{
+    background-color: #fff;
+}
+.imgContent img{
+    display: block;
+    border-radius: 10px;
+    width: 90%;
+    margin: 30px auto;
+}
+.textContent ul{
+    padding: 20px 0;
+}
+.textContent ul li{
+    color: #fff;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+.color_black{
+    color: #000;
+}
+.color_red{
+    color: #ff0000;
+}
+.color_blue{
+    color: #0000ff;
+}
+.fontSize_30{
+    font-size: 30px;
+}
+#pic_diary footer p{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
