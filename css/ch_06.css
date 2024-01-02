@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(35deg,#3997da, #e74d3e);
+}
+p{  
+    width: 180px;
+    color: #3398db;
+    font-size: 26px;
+    font-weight: bold;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: solid 6px #3398db;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 10px;
+}

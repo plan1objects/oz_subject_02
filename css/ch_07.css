@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+html{
+    background-color: #ffb152;
+    font-size: 16px;
+}
+body{
+    width: 600px;
+    margin: 0 auto;    
+}
+h1,h2{
+    font-family: 'Gasoek One', sans-serif;
+    font-size: 5rem;
+    font-weight: 400;
+}
+ul{
+    list-style: none;
+}
+img{
+  width: 300px;
+  border-radius: 50%;  
+  margin: 50px 0;
+}
+p, li{
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+mark{
+    color: #ff0000;
+}
+hr{
+    margin: 30px 0;
+}
+

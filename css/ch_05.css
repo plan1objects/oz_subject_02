@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#join{
+    background-color: #f2fee9;
+    width: 500px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 130px 50px;
+    border-radius: 30px;
+    box-shadow: 10px 10px #a4d09a, 20px 20px #f9b865, 30px 30px #537c55, 40px 40px #fa6a6a;
+}
+#join > h1{
+    margin-bottom: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+#join input,
+#join button,
+#join select{
+    font-size: 16px;
+    font-weight: bold;
+}
+input:not([type="radio"]), select{
+    outline: none;
+    border: solid 3px #537c55;
+    border-radius: 5px;
+    line-height: 60px;
+    margin-bottom: 14px;
+    text-indent: 12px;
+    box-sizing: border-box;
+    height: 60px;
+}
+[name="email"],[name="name"],
+[name="pw"],[type="submit"],
+#pwConfirm, select{
+    display: block;
+    width: 100%;
+    background-color: #fff;
+}
+[name="select_area"]{
+    margin: 20px 0 36px;
+}
+#hpGroup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#hpGroup input{
+    width: 26%;
+}
+#join .number{
+    text-align: right;
+}
+#numberSend, #numberCheck,
+#join .number button{
+    display: inline-block;
+}
+#join .number button{
+    margin: 14px 0;
+    width: 150px;
+    text-align: center;
+    line-height: 30px;
+}
+[type="radio"]{
+    accent-color: #537c55;
+}
+[type="submit"]{
+    margin-top: 20px;
+}
