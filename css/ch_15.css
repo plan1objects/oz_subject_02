@@ -1,0 +1,32 @@
+.chat_screen_texts{
+    list-style-type: none;
+    height: calc(100% - 80px);
+    overflow-y: scroll;
+}
+.chat_screen_texts > .text{
+    background-color: #ffe53b;
+    width: 60%;
+    height: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 30px;
+    position: relative;
+    left: 20px;
+    transition: background-color 600ms 0.2s ease-in-out;
+}
+.chat_screen_texts > .text::after{
+    content: "";
+    border-right:solid 16px #ffe53b;
+    border-bottom:solid 16px transparent;
+    position: absolute;
+    left: -10px;
+    top: 10px;
+    transition: border-right-color 600ms 0.2s ease-in-out;
+}
+.chat_screen_texts > .text:hover{
+    background-color: #eeb90c;
+}
+.chat_screen_texts > .text:hover::after{
+    border-right-color: #eeb90c;
+}  
